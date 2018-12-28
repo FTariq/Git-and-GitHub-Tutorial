@@ -1,19 +1,25 @@
 # Tutorial
 How to use Github!
 
-Cloning a repository:   
+There are two ways to start a repository. You can create and clone a Github repository, or create a local repository and then push to a Github repository.  
+
+To clone:
 Create initial repo on GitHub, with README.md
 ```
 git clone [URL]
 ```
-Or create a new repository on the command line:
+Or create a local repository:
 ```
 echo "# test2" >> README.md / touch README.md
 git init
 ```
+Now that a repository has been created, navigate to it and make changes as you see fit. Then:
 ```
 git add -A
 git commit -m "first commit"
-git remote add origin https://github.com/FTariq/test2.git
+```
+When you want to add changes to your Github repo, create an entry in your git config that specifies a name for the Github repo, to save using the URL every time. We will call this 'origin'.
+git remote add origin [URL]
+
 git push -u origin master
 ```
