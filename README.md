@@ -9,14 +9,14 @@ To clone, create an initial repo on Github, with a name, description, and a READ
 ```
 git clone [URL]
 ```
-If you wish to use existing local files and directories, you can create a local repository instead for the current directory (include a README.md for good practice, as well as if there are no existing files in this directory):
+If you wish to use existing local files and directories, you can create a local repository instead for the current directory (you could include a README.md for good practice, especially if there are no existing files in this directory):
 ```
 echo "# test" >> README.md
 git init
 ```
-Repositories can be created in other folders by adding the name of the repo to the end of the second command. Be aware that a branch is just a reference to a commit, and so a branch is not made in this second example until a commit has been made.
+Repositories can be created in other folders by adding the name of your repo to the end of the second command. Be aware that a branch is just a reference to a commit, and so a branch is not made in this second example until a commit has been made: the README.md file could be used for testing and committing as seen below.
 ## Making changes
-Now that a repository has been created, navigate to it and make changes as you see fit. Then add all files to be staged (individually or all by using -A), and save changes to the branch by committing:
+Now that a repository has been created, navigate to it and make changes to any files in this directory as you see fit. Then add all files to be staged (individually or all by using -A), and save changes to the branch by committing. 
 ```
 git add -A
 git commit -m "initial comment"
