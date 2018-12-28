@@ -21,7 +21,7 @@ Now that a repository has been created, navigate to it and make changes as you s
 git add -A
 git commit -m "initial comment"
 ```
-
+If there are certain files/directories in this directory that you wish not to add, but you would still like to use '-A', you can create a .gitignore file and simply add each file and directory to omit on separate lines.
 ## Pushing and Pulling
 When you want to add changes to your Github repo, create an entry in your git config that specifies a name for the Github repo, to save using the URL every time. We will call this 'origin'. This is automatically done if you've cloned your repo.
 ```
