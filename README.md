@@ -1,4 +1,5 @@
 # How to use Github!
+Just a reference for me starting out to properly use Github, which could help anyone else out too!
 
 ## Creating a repository
 
