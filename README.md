@@ -35,5 +35,5 @@ Now if there have been any changes to the Github files on the master branch and 
 ```
 git pull
 ```
-Note that for other branches, you would still have to write 'origin [branch name]' after this command. 
+Note that for other branches, you would still have to write 'origin [branch name]' after any push or pull command. 
 
