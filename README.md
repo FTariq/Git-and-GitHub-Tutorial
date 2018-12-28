@@ -19,11 +19,11 @@ Repositories can be created in other folders by adding the name of the repo to t
 Now that a repository has been created, navigate to it and make changes as you see fit. Then add all files to be staged, and save changes by committing:
 ```
 git add -A
-git commit -m "commit comment"
+git commit -m "initial comment"
 ```
 
 ## Pushing to Github
-When you want to add changes to your Github repo, create an entry in your git config that specifies a name for the Github repo, to save using the URL every time. We will call this 'origin'. This is automatically created if you've cloned your repo.
+When you want to add changes to your Github repo, create an entry in your git config that specifies a name for the Github repo, to save using the URL every time. We will call this 'origin'. This is automatically done if you've cloned your repo.
 ```
 git remote add origin [URL]
 ```
