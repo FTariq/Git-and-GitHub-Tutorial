@@ -18,8 +18,11 @@ Now that a repository has been created, navigate to it and make changes as you s
 git add -A
 git commit -m "first commit"
 ```
-When you want to add changes to your Github repo, create an entry in your git config that specifies a name for the Github repo, to save using the URL every time. We will call this 'origin'.
+When you want to add changes to your Github repo, create an entry in your git config that specifies a name for the Github repo, to save using the URL every time. We will call this 'origin'.  
+```
 git remote add origin [URL]
-
+```
+Now, we can push any commits to the Github repo by doing:
+```
 git push -u origin master
 ```
