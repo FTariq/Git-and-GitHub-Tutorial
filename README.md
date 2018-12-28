@@ -27,7 +27,7 @@ When you want to add changes to your Github repo, create an entry in your git co
 ```
 git remote add origin [URL]
 ```
-Now, we can push any commits to the Github repo by configuring the upstream server (where we are pushing to) by doing:
+Now, we can push any commits to the Github repo by configuring the upstream server: where we are pushing to, and pushing which specified branch. Subsequent push and pull commands can hence be simplified as git now knows which branches to upload and modify.
 ```
 git push -u origin master
 ```
