@@ -3,8 +3,9 @@ How to use Github!
 
 Cloning a repository: 
 Create initial repo on GitHub, with README.md
+```
 git clone [URL]
-
+```
 Or create a new repository on the command line:
 ```
 echo "# test2" >> README.md / touch README.md
