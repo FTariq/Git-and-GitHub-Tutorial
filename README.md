@@ -1,7 +1,7 @@
 # Tutorial
 How to use Github!
 
-Cloning a repository: 
+Cloning a repository:   
 Create initial repo on GitHub, with README.md
 ```
 git clone [URL]
