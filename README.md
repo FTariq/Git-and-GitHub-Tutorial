@@ -22,7 +22,7 @@ git add -A
 git commit -m "initial comment"
 ```
 
-## Pushing to Github
+## Pushing and Pulling
 When you want to add changes to your Github repo, create an entry in your git config that specifies a name for the Github repo, to save using the URL every time. We will call this 'origin'. This is automatically done if you've cloned your repo.
 ```
 git remote add origin [URL]
