@@ -31,3 +31,9 @@ Now, we can push any commits to the Github repo by configuring the upstream/remo
 ```
 git push -u origin master
 ```
+Now if there have been any changes to the Github files on the master branch and you wish to locally change them, you can simply run:
+```
+git pull
+```
+Note that for other branches, you would have to again specify origin and the name of the branch.
+
