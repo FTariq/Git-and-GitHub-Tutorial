@@ -15,7 +15,7 @@ echo "# test" >> README.md
 git init
 ```
 ## Making changes
-Now that a repository has been created, navigate to it and make changes as you see fit. Then:
+Now that a repository has been created, navigate to it and make changes as you see fit. Then add all files to be staged, and save changes by committing:
 ```
 git add -A
 git commit -m "commit comment"
