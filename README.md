@@ -3,12 +3,11 @@ How to use Github!
 
 There are two ways to start a repository. You can create and clone a Github repository, or create a local repository and then push to a Github repository.  
 
-To clone:
-Create initial repo on GitHub, with README.md
+To clone, create an initial repo on GitHub, with a name, description, and a README.md (this will ensure a master branch has been created). Then to clone this repo to your current local directory:
 ```
 git clone [URL]
 ```
-Or create a local repository:
+If you wish to use existing local files and directories, you can create a local repository instead (include a README.md for good practice, as well as if there are no existing files in this directory):
 ```
 echo "# test2" >> README.md / touch README.md
 git init
