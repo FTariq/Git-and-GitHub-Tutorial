@@ -11,7 +11,7 @@ git clone [URL]
 ```
 If you wish to use existing local files and directories, you can create a local repository instead (include a README.md for good practice, as well as if there are no existing files in this directory):
 ```
-echo "# test2" >> README.md / touch README.md
+echo "# test" >> README.md
 git init
 ```
 ## Making changes
