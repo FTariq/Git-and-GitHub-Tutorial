@@ -17,7 +17,7 @@ git init
 Now that a repository has been created, navigate to it and make changes as you see fit. Then:
 ```
 git add -A
-git commit -m "first commit"
+git commit -m "commit comment"
 ```
 
 ## Pushing to Github
