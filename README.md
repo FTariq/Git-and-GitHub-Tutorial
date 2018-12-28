@@ -1,5 +1,7 @@
 # Tutorial
-How to use Github!
+# How to use Github!
+
+## Creating a repository
 
 There are two ways to start a repository. You can create and clone a Github repository, or create a local repository and then push to a Github repository.  
 
