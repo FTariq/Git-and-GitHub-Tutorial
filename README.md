@@ -9,11 +9,12 @@ To clone, create an initial repo on Github, with a name, description, and a READ
 ```
 git clone [URL]
 ```
-If you wish to use existing local files and directories, you can create a local repository instead (include a README.md for good practice, as well as if there are no existing files in this directory):
+If you wish to use existing local files and directories, you can create a local repository instead for the current directory (include a README.md for good practice, as well as if there are no existing files in this directory):
 ```
 echo "# test" >> README.md
 git init
 ```
+Repositories can be created in other folders by adding the name of the repo to the end of the second command.
 ## Making changes
 Now that a repository has been created, navigate to it and make changes as you see fit. Then add all files to be staged, and save changes by committing:
 ```
