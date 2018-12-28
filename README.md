@@ -27,7 +27,7 @@ When you want to add changes to your Github repo, create an entry in your git co
 ```
 git remote add origin [URL]
 ```
-Now, we can push any commits to the Github repo by configuring the upstream/remote server: where we are pushing to, and pushing which specified branch. Subsequent push and pull commands can hence be simplified as git now knows the default branch to upload and modify (in this case, master).
+Now, we can push any commits to the Github repo by configuring the upstream/remote server (using -u): where we are pushing to, and pushing which specified branch. Subsequent push and pull commands can hence be simplified as git now knows the default branch to upload and modify (in this case, master).
 ```
 git push -u origin master
 ```
@@ -35,5 +35,5 @@ Now if there have been any changes to the Github files on the master branch and 
 ```
 git pull
 ```
-Note that for other branches, you would still have to write 'origin [branch name]' after any push or pull command. 
+Note that for other branches, you would still have to write 'origin [branch name]' after any push or pull command, but without the '-u'. 
 
