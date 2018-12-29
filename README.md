@@ -27,7 +27,7 @@ git status
 ```
 This outputs the current branch and files which have been or are yet to be staged and/or committed.  
 
-If there are certain files/directories in this directory that you wish not to add, but you would still like to use '-A', you can create a .gitignore file and simply add each file and directory to omit on separate lines (make sure they haven't already been added to the repository yet).
+If there are certain files/directories in this directory that you wish not to add, but you would still like to use '-A', you can create a .gitignore file and simply add each file and directory to omit on separate lines (this only works if they haven't already been added to the repository yet).
 ## Branches and merging
 The following commands view all existing branches, creates a new branch br, and then navigates to br:
 ```
