@@ -1,5 +1,5 @@
 # How to start using Git and Github!
-Just a reference for me as I'm finally starting to use Github, which could help anyone else out too! Make sure you've configured your Github account to Git before doing anything here.
+Just a reference for me as I'm finally starting to use Github, which could help anyone else out too! Make sure you've configured your Github account to Git before doing anything here, as seen here.
 
 ## Creating a repository
 
@@ -33,9 +33,10 @@ The latter two commands can be simplified by doing:
 ```
 git checkout -b br
 ```
-Changes can be done by br, and to then merge the master branch to br, navigate back to master and merge:
+Changes can be done by br, and to then view the differences between, and then merge, the master branch to br, do:
 ```
 git checkout master
+git diff br
 git merge br
 ```
 ## Pushing and pulling
