@@ -1,5 +1,5 @@
 # How to start using Git and Github!
-Just a reference for me as I'm finally starting to use Github, but I made it public as it could help anyone else starting out too! Make sure you've installed Git and configured your Github account to it before doing anything here: details can be seen on [this document](https://services.github.com/on-demand/downloads/github-git-cheat-sheet.pdf) (also explains the most used commands).
+Just a reference for me as I'm finally starting to use Github, but I made it public as it could help anyone else starting out too! Make sure you've installed Git and configured your Github account to it before doing anything here: details can be seen on [this document](https://services.github.com/on-demand/downloads/github-git-cheat-sheet.pdf) (which also explains the most used commands).
 
 ## Creating a repository
 
