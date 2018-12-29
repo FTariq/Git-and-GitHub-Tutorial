@@ -48,3 +48,8 @@ The latter two commands can be simplified by doing:
 ```
 git checkout -b br
 ```
+Changes can be done by br, and to then merge the master branch to br, navigate back to master and merge:
+```
+git checkout master
+git merge br
+```
