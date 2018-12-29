@@ -22,21 +22,6 @@ git add -A
 git commit -m "initial comment"
 ```
 If there are certain files/directories in this directory that you wish not to add, but you would still like to use '-A', you can create a .gitignore file and simply add each file and directory to omit on separate lines.
-## Pushing and pulling
-When you want to add changes to your Github repo, create an entry in your git config that specifies a name for the Github repo, to save using the URL every time. We will call this 'origin'. This is automatically done if you've cloned your repo.
-```
-git remote add origin [URL]
-```
-Now, we can push any commits to the Github repo by configuring the upstream/remote server (using -u): where we are pushing to, and pushing which specified branch. Subsequent push and pull commands can hence be simplified as git now knows the default branch to upload and modify (in this case, master).
-```
-git push -u origin master
-```
-Now if there have been any changes to the Github files on the master branch and you wish to locally change them, you can simply run:
-```
-git pull
-```
-Note that for other branches, you would still have to write 'origin [branch name]' after any push or pull command, but without the '-u'.
-
 ## Branches and merging
 The following commands view all existing branches, creates a new branch br, and then navigates to br:
 ```
@@ -53,3 +38,17 @@ Changes can be done by br, and to then merge the master branch to br, navigate b
 git checkout master
 git merge br
 ```
+## Pushing and pulling
+When you want to add changes to your Github repo, create an entry in your git config that specifies a name for the Github repo, to save using the URL every time. We will call this 'origin'. This is automatically done if you've cloned your repo.
+```
+git remote add origin [URL]
+```
+Now, we can push any commits to the Github repo by configuring the upstream/remote server (using -u): where we are pushing to, and pushing which specified branch. Subsequent push and pull commands can hence be simplified as git now knows the default branch to upload and modify (in this case, master).
+```
+git push -u origin master
+```
+Now if there have been any changes to the Github files on the master branch and you wish to locally change them, you can simply run:
+```
+git pull
+```
+Note that for other branches, you would still have to write 'origin [branch name]' after any push or pull command, but without the '-u'.
