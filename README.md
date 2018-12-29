@@ -1,5 +1,5 @@
 # How to use Github!
-Just a reference for me starting out to properly use Github, which could help anyone else out too! Make sure you've configured your Github account to the git terminal before doing everything here.
+Just a reference for me starting out to properly use Github, which could help anyone else out too! Make sure you've configured your Github account to Git before doing anything here.
 
 ## Creating a repository
 
