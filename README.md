@@ -22,7 +22,7 @@ git add -A
 git commit -m "initial comment"
 ```
 If there are certain files/directories in this directory that you wish not to add, but you would still like to use '-A', you can create a .gitignore file and simply add each file and directory to omit on separate lines.
-## Pushing and Pulling
+## Pushing and pulling
 When you want to add changes to your Github repo, create an entry in your git config that specifies a name for the Github repo, to save using the URL every time. We will call this 'origin'. This is automatically done if you've cloned your repo.
 ```
 git remote add origin [URL]
@@ -35,5 +35,16 @@ Now if there have been any changes to the Github files on the master branch and 
 ```
 git pull
 ```
-Note that for other branches, you would still have to write 'origin [branch name]' after any push or pull command, but without the '-u'. 
+Note that for other branches, you would still have to write 'origin [branch name]' after any push or pull command, but without the '-u'.
 
+## Branches and merging
+The following commands view all existing branches, creates a new branch br, and then navigates to br:
+```
+git branch
+git branch br
+git checkout br
+```
+The latter two commands can be simplified by doing:
+```
+git checkout -b br
+```
