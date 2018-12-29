@@ -1,5 +1,5 @@
 # How to start using Git and Github!
-Just a reference for me as I'm finally starting to use Github, but I made it public as it could help anyone else starting out too! Make sure you've installed Git and configured your Github account to it before doing anything here: details can be seen on [this document](https://services.github.com/on-demand/downloads/github-git-cheat-sheet.pdf) (which also explains the most used commands).
+Just a reference for me as I'm finally starting to use Github, but I made it public as it could help anyone else starting out too! Compiled from many sources online and through my own experimentation. Make sure you've installed Git and configured your Github account to it before doing anything here: details can be seen on [this document](https://services.github.com/on-demand/downloads/github-git-cheat-sheet.pdf) (which also explains the most used commands).
 
 ## Creating a repository
 
@@ -29,7 +29,7 @@ This outputs the current branch and files which have been or are yet to be stage
 
 If there are certain files/directories in this directory that you wish not to add, but you would still like to use '-A', you can create a .gitignore file and simply add each file and directory to omit on separate lines (this only works if they haven't already been added to the repository yet).
 ## Branches and merging
-The following commands view all existing branches, creates a new branch br, and then navigates to br:
+The following commands view all existing branches, creates a new branch 'br', and then navigates to br:
 ```
 git branch
 git branch br
