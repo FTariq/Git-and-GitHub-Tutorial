@@ -36,7 +36,9 @@ git branch br
 git checkout br
 ```
 The latter two commands can be simplified by doing:
-``` git checkout -b br ```
+``` 
+git checkout -b br 
+```
 Changes can be done by br, and to then view the differences between, and then merge, the master branch to br, do:
 ```
 git checkout master
