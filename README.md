@@ -36,9 +36,7 @@ git branch br
 git checkout br
 ```
 The latter two commands can be simplified by doing:
-```
-git checkout -b br
-```
+``' git checkout -b br ```
 Changes can be done by br, and to then view the differences between, and then merge, the master branch to br, do:
 ```
 git checkout master
@@ -59,5 +57,6 @@ Now if there have been any changes to the Github files on the master branch and 
 git pull
 ```
 Note that for other branches, you would still have to write 'origin [branch name]' after any push or pull command, but without the '-u'.
+
 
 Now go out there and start coding!
