@@ -58,7 +58,11 @@ Now if there have been any changes to the Github files on the master branch and 
 ```
 git pull
 ```
-Note that for other branches, you would still have to write 'origin [branch name]' after any push or pull command, but without the '-u'.
-
+Note that for other branches, you would still have to write 'origin [branch name]' after any push or pull command, but without the '-u'. Also note that this is a combination of the two commands:
+```
+git fetch
+git merge master origin/master
+```
+The former command 'fetches' the origin branch posted on GitHub (the remote repository), so that a local copy of the branch is made. We can then merge this branch, which has the default name of 'origin/master' with our local master branch.
 
 Now go out there and start coding!
