@@ -1,11 +1,11 @@
-# How to start using Git and Github!
-Just a reference for me as I'm finally starting to use Github, but I made it public as it could help anyone else starting out too! Compiled from many sources online and through experimenting with commands. Make sure you've installed Git from [here](https://git-scm.com/downloads) and configured your Github account to it before doing anything here: details can be seen on [this document](https://services.github.com/on-demand/downloads/github-git-cheat-sheet.pdf) (which also explains the most used commands). Additionally, if you want to avoid authenticating yourself every time you push and pull, generate an SSH key by following the steps [here](https://help.github.com/articles/connecting-to-github-with-ssh/).
+# How to start using Git and GitHub!
+Just a reference for me as I'm finally starting to use GitHub, but I made it public as it could help anyone else starting out too! Compiled from many sources online and through experimenting with commands. Make sure you've installed Git from [here](https://git-scm.com/downloads) and configured your GitHub account to it before doing anything here: details can be seen on [this document](https://services.github.com/on-demand/downloads/github-git-cheat-sheet.pdf) (which also explains the most used commands). Additionally, if you want to avoid authenticating yourself every time you push and pull, generate an SSH key by following the steps [here](https://help.github.com/articles/connecting-to-github-with-ssh/).
 
 ## Creating a repository
 
-There are two ways to start a repository. You can create and clone a Github repository, or create a local repository and then push to a Github repository.  
+There are two ways to start a repository. You can create and clone a GitHub repository, or create a local repository and then push to a GitHub repository.  
 
-To clone, create an initial repo on Github, with a name, description, and a README.md (this will ensure a master branch has been created). Then to clone this repo to your current local directory:
+To clone, create an initial repo on GitHub, with a name, description, and a README.md (this will ensure a master branch has been created). Then to clone this repo to your current local directory:
 ```
 git clone [URL]
 ```
@@ -50,15 +50,15 @@ git diff br
 git merge br
 ```
 ## Pushing and pulling
-When you want to add changes to your Github repo, create an entry in your git config that specifies a name for the Github repo, to save using the URL every time. We will call this 'origin'. This is already done for you if you've cloned your repo.
+When you want to add changes to your GitHub repo, create an entry in your git config that specifies a name for the GitHub repo, to save using the URL every time. We will call this 'origin'. This is already done for you if you've cloned your repo.
 ```
 git remote add origin [URL]
 ```
-Now, we can push any commits to the Github repo by configuring the upstream/remote server (using -u): where we are pushing to, and pushing which specified branch. Subsequent push and pull commands can hence be simplified as git now knows the default branch to upload and modify (in this case, master).
+Now, we can push any commits to the GitHub repo by configuring the upstream/remote server (using -u): where we are pushing to, and pushing which specified branch. Subsequent push and pull commands can hence be simplified as git now knows the default branch to upload and modify (in this case, master).
 ```
 git push -u origin master
 ```
-Now if there have been any changes to the Github files on the master branch and you wish to locally change them, you can simply run:
+Now if there have been any changes to the GitHub files on the master branch and you wish to locally change them, you can simply run:
 ```
 git pull
 ```
