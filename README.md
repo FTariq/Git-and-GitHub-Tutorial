@@ -1,6 +1,15 @@
 # How to start using Git and GitHub!
 Just a reference for me as I'm finally starting to use GitHub, but I made it public as it could help anyone else starting out too! Compiled from many sources online and through experimenting with commands. Make sure you've installed Git from [here](https://git-scm.com/downloads) and configured your GitHub account to it before doing anything here: details can be seen on [this document](https://services.github.com/on-demand/downloads/github-git-cheat-sheet.pdf) (which also explains the most used commands). Additionally, if you want to avoid authenticating yourself every time you push and pull, generate an SSH key by following the steps [here](https://help.github.com/articles/connecting-to-github-with-ssh/).
 
+The main process of git:
+```
+git init - creates a repository
+git add - adds files to be 'staged' i.e. letting git know you want to save changes to this file
+git commit - save all changes made to staged files
+git push - send changes to your remote repository, for example on Github
+git pull - get the latest version of the repository from your remote location
+```
+
 ## Creating a repository
 
 Git creates a 'repository' to store our complete file history, insertions/deletions made, backups of previous versions, and so on: this is the main gist of version control. There are two ways to start a repository. You can create and clone a GitHub repository, or create a local repository and then push to a GitHub repository.  
