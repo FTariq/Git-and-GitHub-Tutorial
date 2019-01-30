@@ -3,7 +3,7 @@ Just a reference for me as I'm finally starting to use GitHub, but I made it pub
 
 ## Creating a repository
 
-We create a 'repository' with git to store our complete file history, insertions/deletions made, backups of previous versions, and so on: this is the main gist of version control. There are two ways to start a repository. You can create and clone a GitHub repository, or create a local repository and then push to a GitHub repository.  
+Git creates a 'repository' to store our complete file history, insertions/deletions made, backups of previous versions, and so on: this is the main gist of version control. There are two ways to start a repository. You can create and clone a GitHub repository, or create a local repository and then push to a GitHub repository.  
 
 To clone, create an initial repo on GitHub, with a name, description, and a README.md (this will ensure a master branch has been created, and it's good practice to do so anyway). Then to clone this repo to your current local directory:
 ```
