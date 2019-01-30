@@ -43,7 +43,7 @@ The latter two commands can be simplified by doing:
 ``` 
 git checkout -b br 
 ```
-Changes can be done by br, and to then view the differences between, and then merge, the master branch to br, do:
+Changes can be done by br, and to then view the differences between commits, and then merge, the master branch to br, do:
 ```
 git checkout master
 git diff br
