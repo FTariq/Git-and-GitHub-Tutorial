@@ -34,7 +34,7 @@ Be aware that a branch is just a reference to a commit, and so a branch is not m
 Now that a repository has been created, navigate to it and make changes to any files in this directory as you see fit. Then add all files to be staged (individually or all by using -A), and save changes to the branch by committing. 
 ```
 git add -A
-git commit -m "initial comment"
+git commit -m "some comment about changes made"
 ```
 A very useful command is:
 ```
