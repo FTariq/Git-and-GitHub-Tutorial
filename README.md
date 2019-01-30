@@ -18,7 +18,7 @@ If you wish to use existing local files and directories instead, you can create 
 echo "# test" >> README.md
 git init
 ```
-Repositories can be created in other folders by adding the name of your repo to the end of the ```git init```, which creates a .git folder and thus the git repository. Be aware that a branch is just a reference to a commit, and so a branch is not made when the repo is initialised, but only when a commit has been made: the README.md file could be used for testing and committing as seen below.
+Repositories can be created in other folders by doing ```git init [folder name]```. The command creates a .git folder and thus the git repository in the target directory. Be aware that a branch is just a reference to a commit, and so a branch is not made when the repo is initialised, but only when a commit has been made: the README.md file could be used for testing and committing as seen below.
 ## Making changes
 Now that a repository has been created, navigate to it and make changes to any files in this directory as you see fit. Then add all files to be staged (individually or all by using -A), and save changes to the branch by committing. 
 ```
