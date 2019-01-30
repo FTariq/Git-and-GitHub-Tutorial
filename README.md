@@ -67,7 +67,7 @@ Note that for other branches, you would still have to write 'origin [branch name
 git fetch
 git merge master origin/master
 ```
-The former command 'fetches' the origin branch posted on GitHub (the remote repository), so that a local copy of the branch is made. We can then merge this branch, which has the default name of 'origin/master' with our local master branch.
+The former command 'fetches' the origin branch posted on GitHub (the remote repository), so that a local copy of the branch is made. We can then merge this branch, which has the default name of 'origin/master' with our local master branch. To compare differences between the local and remote branches, you could also change ```merge``` to ```diff```. 
 
 Creating a 'pull request' means that you wish to merge a branch you have forked from another user's repository with your master branch. This may be as you have fixed certain bugs in their repo, improved features, and so on. They can then approve your pull request to merge your branch to their master, meaning your branch is now the default!
 
