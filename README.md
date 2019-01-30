@@ -13,7 +13,7 @@ If you then change the GitHub repository further, and you wish to update the loc
 ```
 git pull
 ```
-If you wish to use existing local files and directories, you can create a local repository instead for the current directory (you could include a README.md for good practice, especially if there are no existing files in this directory):
+If you wish to use existing local files and directories instead, you can create a local repository instead for the current directory (you could include a README.md for good practice, especially if there are no existing files in this directory):
 ```
 echo "# test" >> README.md
 git init
