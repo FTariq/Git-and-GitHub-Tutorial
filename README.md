@@ -14,7 +14,7 @@ git pull - get the latest version of the repository from your remote location
 
 Git creates a 'repository' to store our complete file history, insertions/deletions made, backups of previous versions, and so on: this is the main gist of version control. There are two ways to start a repository. You can create and clone a GitHub repository, or create a local repository and then push to a GitHub repository.  
 
-To clone, create an initial repo on GitHub, with a name, description, and a README.md (this will ensure a master branch has been created, and it's good practice to do so anyway). Then to clone this repo to your current local directory:
+To clone, create an initial repo on GitHub, with a name, description, and a README.md (a testing file such as this is necessary for the rest of this tutorial, and it's good practice to do so anyway). Then to clone this repo to your current local directory:
 ```
 git clone [URL]
 ```
@@ -22,14 +22,12 @@ If you then change the GitHub repository further, and you wish to update the loc
 ```
 git pull
 ```
-If you wish to use existing local files and directories instead, you can create a local repository instead for the current directory (you should include a README.md if there are no existing files in this directory, and also again for good practice):
+If you wish to use existing local files and directories instead, you can create a local repository for the current directory (include a README.md if there are no existing files in this directory, and also again for good practice):
 ```
-echo "# test" >> README.md
+echo "# test" >> README.md - this creates a README file containing a simple test comment
 git init
 ```
 Repositories can be created in other folders by doing ```git init [folder name]```. The command creates a .git folder and thus the git repository in the target directory. 
-
-Be aware that a branch is just a reference to a commit, and so a branch is not made when the repo is initialised, but only when a commit has been made: the README.md file could be very useful for testing and committing as seen below!
 ## Making changes
 Now that a repository has been created, navigate to it and make changes to any files in this directory as you see fit. Then add all files to be staged (individually or all by using -A), and save changes to the branch by committing. 
 ```
@@ -42,7 +40,9 @@ git status
 ```
 This outputs the current branch and files which have been or are yet to be staged and/or committed.  
 
-If there are certain files/directories in this directory that you wish not to add, but you would still like to use '-A', you can create a .gitignore file and simply add each file and directory to omit on separate lines (this only works if they haven't already been added to the repository yet).
+If there are certain files/directories in this directory that you wish not to add, but you would still like to use ```-A```, you can create a ```.gitignore``` file and simply add each file and directory to omit on separate lines (this only works if they haven't already been added to the repository yet).
+
+A branch is just a reference to a commit, and so a branch is not made when the repo is initialised, but only when a commit has been made: hence a README.md file is very useful for testing and committing!
 ## Branches and merging
 The following commands view all existing branches, creates a new branch 'br', and then navigates to br:
 ```
@@ -78,8 +78,10 @@ Note that for other branches, you would still have to write 'origin [branch name
 git fetch
 git merge master origin/master
 ```
-The former command 'fetches' the origin branch posted on GitHub (the remote repository), so that a local copy of the branch is made. We can then merge this branch, which has the default name of 'origin/master' with our local master branch. You could also change ```merge``` to ```diff```, to compare differences between the local and remote branches.
+The former command 'fetches' the origin branch posted on GitHub (the remote repository), so that a local copy of the branch is made. We can then merge this branch, which has the default name of 'origin/master' with our local master branch. You could also change ```merge``` to ```diff```, to compare differences between the local and remote branches. A quick note, but for group projects, it is **highly** recommended to push and pull regularly - this will help to avoid the dreaded merge conflict! 
 
 Creating a 'pull request' means that you wish to merge a branch you have forked (i.e. creating a copy of a repo to your own account) from another user's repository with your master branch. This may be as you have fixed certain bugs in their repo, improved features, and so on. They can then approve your pull request to merge your branch to their master, meaning your branch is now the default!
+
+Hopefully this has helped you to understand and use Git and GitHub a bit more. If you feel like this can be improved in any way, you could use the knowledge gained from this and create a pull request using your suggested changes!
 
 Now go out there and start coding!
