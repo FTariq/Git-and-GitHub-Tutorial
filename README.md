@@ -56,9 +56,9 @@ git checkout -b br
 ```
 Changes can then be made to the new branch br. To view the differences between commits, and then merge the master branch to br, do:
 ```
-git checkout master
-git diff br
-git merge br
+git checkout master - navigate to the master branch to merge with the new branch
+git diff br - to compare differences between branches
+git merge br - add the changes made to br to master
 ```
 ## Pushing and pulling
 When you want to add changes to your GitHub repo, create an entry in your git config that specifies a name for the GitHub repo, to save using the URL every time. We will call this 'origin'. This is already done for you if you've cloned your repo (with its default name being 'origin' as well).
@@ -67,20 +67,25 @@ git remote add origin [URL]
 ```
 The address of origin can be checked by replacing ```add``` with ```show```.
 
-Now, we can push any commits to the GitHub repo by configuring the upstream/remote server (using -u): where we are pushing to, and pushing which specified branch. Subsequent push and pull commands can hence be simplified as git now knows the default branch to upload and modify (in this case, master).
+Now, we can push any commits to the GitHub repo by configuring the upstream/remote server using ```-u```. The upstream server is where we are pushing to (in this case 'origin'), and which branch we are using (in this case, 'master'). Subsequent push and pull commands can then be simplified as git now knows the default branch to upload and modify.
 ```
 git push -u origin master
 ```
-Now if there have been any changes to the GitHub files on the master branch and you wish to locally change them, you can simply run:
+Now if there have been any changes to the GitHub files on the master branch and you wish to locally change them, or if you want to push again (both for the same remote server and branch), you can simply run:
 ```
 git pull
+git push
 ```
-Note that for other branches, you would still have to write 'origin [branch name]' after any push or pull command, but without the '-u'. Also note that this is a combination of the two commands:
+Note that for other branches, you would still have to write 'origin [branch name]' after any push or pull command, but without the '-u' (unless you want to change push/pull's default origin and branch). 
+
+Note that ```git push``` is a combination of the two commands:
 ```
 git fetch
 git merge master origin/master
 ```
-The former command 'fetches' the origin branch posted on GitHub (the remote repository), so that a local copy of the branch is made. We can then merge this branch, which has the default name of 'origin/master' with our local master branch. You could also change ```merge``` to ```diff```, to compare differences between the local and remote branches. A quick note, but for group projects, it is **highly** recommended to push and pull regularly - this will help to avoid the dreaded merge conflict! 
+The former command 'fetches' the origin branch posted on GitHub (the remote repository), so that a local copy of the branch is made. We can then merge this branch, which has the default name of 'origin/master' with our local master branch. You could also change ```merge``` to ```diff```, to compare differences between the local and remote branches. 
+
+A quick note, but for group projects, it is **highly** recommended to push and pull regularly - this will help to avoid the dreaded merge conflict! 
 
 Creating a 'pull request' means that you wish to merge a branch you have forked (i.e. creating a copy of a repo to your own account) from another user's repository with your master branch. This may be as you have fixed certain bugs in their repo, improved features, and so on. They can then approve your pull request to merge your branch to their master, meaning your branch is now the default!
 
