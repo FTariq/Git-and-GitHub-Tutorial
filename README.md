@@ -61,10 +61,12 @@ git diff br
 git merge br
 ```
 ## Pushing and pulling
-When you want to add changes to your GitHub repo, create an entry in your git config that specifies a name for the GitHub repo, to save using the URL every time. We will call this 'origin'. This is already done for you if you've cloned your repo.
+When you want to add changes to your GitHub repo, create an entry in your git config that specifies a name for the GitHub repo, to save using the URL every time. We will call this 'origin'. This is already done for you if you've cloned your repo (with its default name being 'origin' as well).
 ```
 git remote add origin [URL]
 ```
+The address of origin can be checked by replacing ```add``` with ```show```.
+
 Now, we can push any commits to the GitHub repo by configuring the upstream/remote server (using -u): where we are pushing to, and pushing which specified branch. Subsequent push and pull commands can hence be simplified as git now knows the default branch to upload and modify (in this case, master).
 ```
 git push -u origin master
