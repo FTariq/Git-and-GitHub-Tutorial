@@ -50,11 +50,11 @@ git branch
 git branch br
 git checkout br
 ```
-The latter two commands can be simplified by doing:
+The latter two commands can be simplified via the command:
 ``` 
 git checkout -b br 
 ```
-Changes can be done by br, and to then view the differences between commits, and then merge, the master branch to br, do:
+Changes can then be made to the new branch br. To view the differences between commits, and then merge the master branch to br, do:
 ```
 git checkout master
 git diff br
