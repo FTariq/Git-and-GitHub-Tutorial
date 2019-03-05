@@ -3,7 +3,7 @@ Just a reference for me as I'm finally starting to use GitHub, but I made it pub
 
 The main process of git:
 ```
-git init - creates a repository
+git init - creates a repository i.e. storing all history for your project
 git add - adds files to be 'staged' i.e. letting git know you want to save changes to this file
 git commit - save all changes made to staged files
 git push - send changes to your remote repository, for example on Github
