@@ -67,7 +67,7 @@ git remote add origin [URL]
 ```
 The address of origin can be checked by replacing ```add``` with ```show```.
 
-Now, we can push any commits to the GitHub repo by configuring the upstream/remote server using ```-u```. The upstream server is where we are pushing to (in this case 'origin'), and which branch we are using (in this case, 'master'). Subsequent push and pull commands can then be simplified as git now knows the default branch to upload and modify through using ```-u```.
+Now, we can push any commits to the GitHub repo by configuring the upstream/remote server using ```-u```. The upstream server is where we are pushing to (in this case 'origin'), and which branch we are using (in this case, 'master'). Subsequent push and pull commands can then be simplified as git now knows the default branch to upload and modify by using ```-u```.
 ```
 git push -u origin master
 ```
