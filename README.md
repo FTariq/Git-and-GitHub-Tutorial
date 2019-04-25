@@ -1,5 +1,5 @@
 # How to start using Git and GitHub!
-Just a reference for me as I'm finally starting to use GitHub, but I made it public as it could help anyone else starting out too! Compiled from many sources online and through experimenting with commands. Make sure you've:
+Just a reference for me as I'm finally starting to use GitHub, but I made it public as it could help anyone else starting out too! Compiled from many sources online and through experimenting with commands. Before going through this, make sure you've:
 - Read through the short introductory GitHub guide [here](https://guides.github.com/activities/hello-world/)
 - Installed Git from [here](https://git-scm.com/downloads)
 - Configured your GitHub account to Git before doing anything here: details can be seen on [this document](https://services.github.com/on-demand/downloads/github-git-cheat-sheet.pdf) (which also explains the most used commands)
