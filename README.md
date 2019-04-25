@@ -2,7 +2,7 @@
 Just a reference for me as I'm finally starting to use GitHub, but I made it public as it could help anyone else starting out too! Compiled from many sources online and through experimenting with commands. Before going through this, make sure you've:
 - Read through the short introductory GitHub guide [here](https://guides.github.com/activities/hello-world/)
 - Installed Git from [here](https://git-scm.com/downloads)
-- Configured your GitHub account to Git before doing anything here: details can be seen on [this document](https://services.github.com/on-demand/downloads/github-git-cheat-sheet.pdf) (which also explains the most used commands)
+- Configured your GitHub account to Git: details can be found on [this document](https://services.github.com/on-demand/downloads/github-git-cheat-sheet.pdf) (which also explains the most used commands)
 
 Additionally, if you want to avoid authenticating yourself every time you push and pull, generate an SSH key by following the steps [here](https://help.github.com/articles/connecting-to-github-with-ssh/).
 
