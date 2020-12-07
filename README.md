@@ -39,7 +39,7 @@ Now that a repository has been created, navigate to it and make changes to any f
 git add -A
 git commit -m "some comment about changes made"
 ```
-Once files have been tracked using ```git add```, you can combine these two commands by using ```git commit -am "<message>"```  
+Once files have been tracked using ```git add```, you can combine these two commands in the future by using ```git commit -am "<message>"```  
 
 A very useful command is:
 ```
